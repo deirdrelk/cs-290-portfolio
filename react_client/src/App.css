@@ -1,0 +1,127 @@
+body {
+  font-family: sans-serif;
+  font-size:1em;
+  line-height:1.2;
+  background-color: #45050C;
+  color:#EECF6D;
+  text-align: center;
+  margin:2%;
+  padding:2%;
+}
+
+header {
+  background-color:#8B6220;
+  color:#F2F4CB;
+  padding:3%;
+  margin:3%;
+  border-radius:10px;
+}
+
+nav a {
+  background-color:#877b66;
+  color:#E8F7EE;
+  font-weight:bold;
+  text-decoration:none;
+  border-radius:10px;
+  padding-left:1%;
+  padding-right:1%;
+  padding-top:00.5%;
+  padding-bottom: 00.5%;
+  margin:1.5%;
+}
+
+main {
+  background-color: #8B6220;
+  padding:3%;
+  margin:3%;
+}
+
+footer {
+  background-color:#720E07;
+  padding:1%;
+  margin:3%;
+  border-radius:10px;
+}
+
+/* table updates */
+table {
+  border-collapse:collapse;
+  margin:2%;
+  padding:2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+caption {
+  background-color:#B68F40;  
+  border:1px solid gray;
+  border-radius:3px 3px 0 0; 
+  color:#F0F2EF;
+  font-weight:bold;
+  padding:1% 0;
+}
+
+thead {
+  height:40px;
+}
+
+tbody {
+  text-align:center;
+  color: darkslategrey;
+  }
+tr td {
+  min-width:100px;
+  }
+tr th {
+  background-color:#720E07;
+  padding:1%;
+  min-width:100px;;
+}
+th, td {border:1px solid darkslategrey;}
+
+tr:nth-child(odd) td {background-color:#F3C677;}
+tr:nth-child(even) td {background-color:#F0F2EF}
+/* end table updates */
+
+/* Select update */
+select {
+  margin: 2%;
+}
+
+/* Form updates */
+
+input {
+  font-family: sans-serif;;
+  font-size:1em;
+  line-height:1.2;
+  color:darkslategrey;
+  padding:1%;
+  border-radius:5px;
+  margin: 2%;
+}
+
+button {
+  font-family: sans-serif;;
+  font-size:1em;
+  font-weight:bold;
+  line-height:1.2;
+  border-radius:10px;
+  color:#E8F7EE;
+  background-color: #45050C;
+  padding:1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: 2%;
+}
+/* end form updates */
+
+/* logo sizing */
+.App-logo {
+  height: 3em;
+  width: 3em;
+}
+
+/* heading 1 and 2 settings*/
+h1, h2 {color:#B68F40;}
+h1 {font-size:200%; margin:0; padding:0;}
+h2 {font-size:150%; margin:0; padding:0;}
